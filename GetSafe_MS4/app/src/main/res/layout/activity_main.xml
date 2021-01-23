@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/dismissBtn"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_above="@+id/imageButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="126dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dismiss_img" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="315dp"
+            android:layout_height="289dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="105dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/emergbtn"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/navigation"
+            android:layout_width="170dp"
+            android:layout_height="143dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#4F5254"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/plus1" />
+
+
+        <Button
+            android:id="@+id/profile_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="103dp"
+            android:text="Profile"
+            android:textSize="10sp"
+            android:visibility="invisible"
+            app:iconTint="#FBFBF5" />
+
+        <Button
+            android:id="@+id/logout_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="135dp"
+            android:text="logout"
+            android:textSize="10sp"
+            android:visibility="invisible"
+            app:iconTint="#FBFBF5" />
+
+        <Button
+            android:id="@+id/settings_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="71dp"
+            android:text="Settings"
+            android:textSize="10sp"
+            android:visibility="invisible"
+            app:iconTint="#FBFBF5" />
+
+        <Button
+            android:id="@+id/emergency_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="39dp"
+            android:text="Emergency"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/harassmap_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="7dp"
+            android:text="HarassMap"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center"
+            android:text="Press and release in case of emergency"
+            android:textColor="#9C4D76"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="85dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center"
+            android:text="To cancel swipe up and click on the abort button"
+            android:textColor="#464D51"
+            android:textSize="17sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/onpress"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="207dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="214dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            app:backgroundTint="#6A6C3333" />
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginEnd="126dp"
+            android:layout_marginBottom="147dp"
+            android:text="Press to stop"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
