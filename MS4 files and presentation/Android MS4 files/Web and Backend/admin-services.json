@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mobileapps2021-farida",
+  "private_key_id": "864d71ebbadee32e2e721f31fc368f62efffc8c8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6dOaewvHil+UG\nmgaPy+jLyr2MoKnCahiHgYXSACDzk7C+CnjgmEw8kHvXTT5LVdJDK/NQLy7VmJoj\n/mNIxKqbx6wvQEMIJjVhv8kC9bv0IMuOj6AEPGTDLTbuEJxK8MT30S/1yvXJCiye\n5b92HnwEQRgHQ4v4t2Dzl4iPkm79TW4JCBcumujmwwGZrJUv7jhen5M1LBRV+SGZ\nUBSwetZxrnmAuZl1ozbFxhSZKKbOuygfncnHnhsoBfnKAfYwClWHPamu+fN+mWF0\neKJ3jSvunvfNIVo02knO4vetd58t+RzVcy361xuqvaEnwjLKw8bn5inFer+WjQ8E\nXrEHFi5tAgMBAAECggEAD6hke32UcXpe9bx2g5nUjVSTsV0GlHhzYeG7GqT/H2VO\nKM9ZUkcH0+gwNiba7dmhpBlrP9cOgEpl21LwBHrbduSALaGgX21R+0jvOOvo4jnk\nzi56ehCWR5ui6sADV/m7GLJ87A+kr0LG93sEpoct0++hdG60MOk5X4tgoOnjnyq+\nObv+ARVcirXiwOxqhONkVruVz1PON1Hxiu8GMzmaWq1t6rcFHLPnxILpQJDf2A5i\n3LWuq086WxLJwiDsgeRmcL7/ItKmB5Mjb6fQf32ZOx8oh3Lpy0AM0tWeURoccleq\nms7mYX4Ox2ex0nT2CiCoFVRT0MaREJ+jeOo6u/9ZYwKBgQDda1Unr7crwrhohrDF\nCDoJ5FUFcxyovdKWvQd6OhzmRhEk039iDmI/dSWtX5PgvdFHCrfaAAKZsvaSFu2U\n0JinwGWqOjnFQaA4eAelzWIQ7z2D2S4s1O8dO+PfMRoori438JRO1Q1NvVvnYk4K\noZvyUqvWypOPJZQDYW8PAuLo2wKBgQDXk7YQctkmkMyAPloOkLG6mdUfW1MZTUyT\nVQMsF4fAklTmtNvj65cvQQ8HZ0D6xZIJr33W/LXHiup6tINcYYSwNkaAc/Ja1iRl\nZYJOlpSpsq5iFfqbxb/FeijiE0QQHrVt9ERiO/quEM4G+wbeOD2o57pUOzGHasbZ\nsv927qLkVwKBgE8ZLM6Eozbq1N3iX/vDOJiYDRdpS++sADMBTE6JvBE3LqCtPXBW\nGxr4SoFpB3bd2Ik8dvlVz5gAqrz9m9nxutcSkD8Dlee1zfreRj0g5cuO67bSOwCh\nANq8rmbpL6Mgtjodo52V1q7S2qYKJD8ABKnIhsKwk44rqniasgX2zgDJAoGAagia\ndY635nM0UyPYEe/zq0+89zZpMjnGH3WiIM7WE88l+XAd9AZOD40VglO0L2R8R01N\nPTCBjMt0N7SQJCFHLZEUrlvZafqIXmNGa7c/GhTsFwyufm4OvGgwsbo+MRuZq6KI\n/DR6QaG8ZMyV/Tl2gpywFnwjCXNoqW2UoAASmPMCgYA5CeUS+1iBFVMW46VGNOOt\nI0kAjHmgWjV4y1UQxJZKt6lZxoWaAi5pHXnjhBGbhn6OugpfA1vi69Hu1ruBSxVa\nIjlknQ4szCdG1z9KaYTjaRffviHBex89GApFKnS3bsG8vOuMaovbVeGIYTPG+ZhA\ni4uX67mcI5HVZOIcvC3RSg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-8pnei@mobileapps2021-farida.iam.gserviceaccount.com",
+  "client_id": "102441409656692953994",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8pnei%40mobileapps2021-farida.iam.gserviceaccount.com"
+}
